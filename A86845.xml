@@ -1,0 +1,617 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The humble petition of the vvretched, and most contemptible, the poore commons of England, to the blessed Elizabeth of famous memory. Also a most gratious answer, with a divine admonition and propheticall conclusion.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1642</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 25 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A86845</idno>
+            <idno type="STC">Wing H3586</idno>
+            <idno type="STC">Thomason E108_1</idno>
+            <idno type="STC">ESTC R5688</idno>
+            <idno type="EEBO-CITATION">99872882</idno>
+            <idno type="PROQUEST">99872882</idno>
+            <idno type="VID">125328</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A86845)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 125328)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 19:E108[1])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The humble petition of the vvretched, and most contemptible, the poore commons of England, to the blessed Elizabeth of famous memory. Also a most gratious answer, with a divine admonition and propheticall conclusion.</title>
+               </titleStmt>
+               <extent>[2], 13, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>Ptinted [sic] for E.P. and E.B.,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>July 23. 1642.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Elizabeth --  I, --  Queen of England, 1533-1603.</term>
+               <term>Great Britain --  History --  Civil War, 1642-1649 --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-04</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2010-04</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:125328:1"/>
+            <pb facs="tcp:125328:1" rendition="simple:additions"/>
+            <p>THE HUMBLE PETITION OF THE VVRETCHED, And moſt contemptible, the poore Commons of <hi>England,</hi>
+            </p>
+            <p>To the bleſſed ELIZABETH of famous memory.</p>
+            <p>Alſo a moſt gratious Anſwer, with a Divine Admonition and Propheticall Concluſion.</p>
+            <p>
+               <hi>LONDON,</hi> Ptinted for <hi>E. P.</hi> and <hi>E. B. July</hi> 23. 1642.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:125328:2"/>
+            <pb n="1" facs="tcp:125328:2"/>
+            <head>TO THE BLESSED S<hi rend="sup">t</hi>. <hi>ELIZABETH</hi> OF FAMOUS MEMORY; The humble Petitions of the wretched and moſt con<g ref="char:EOLhyphen"/>temtible, the poore Commonöns of England.</head>
+            <l>
+               <seg rend="decorInit">I</seg>F Saints in Heaven can eather ſee or heare</l>
+            <l>Or helpe poore mortals, O then lend an eare;</l>
+            <l>Looke downe bleſt Saint, O heare, O heare us now,</l>
+            <l>Whoſe humble hearts, low as our knees doe bow:</l>
+            <l>Looke on our ſufferings, thinke but on our wrongs,</l>
+            <l>That hardly can be told with mortall tongues;</l>
+            <l>Oh be not now leſſe gratious then of old,</l>
+            <l>When each diſtreſſed vaſſell might be bold</l>
+            <l>Into thine open hand to put his griefe,</l>
+            <l>And timely thence receive a faire reliefe,</l>
+            <l>Be not leſſe good, leſſe gratious then before,</l>
+            <l>In heaven the ſupplications of the poore</l>
+            <l>Are heard as ſoone as ſuites of greateſt Kings:</l>
+            <l>If our Petitions then bleſt Saint vvant wings</l>
+            <l>To mount them to the Judge of Judges Throne,</l>
+            <l>O helpe then bleſſed Soveraigne with thine owne,</l>
+            <l>Carry our juſt complaints, ſince juſt they are,</l>
+            <l>And make a tender of them at the Barre,</l>
+            <l>Where no corruption, no friend, no fraud, no bribe,</l>
+            <l>No griping Lawyer, no avaricious Scribe,</l>
+            <l>No favorite, no parraſite, no minnion</l>
+            <l>Can either lead or alter the opinion:</l>
+            <pb n="2" facs="tcp:125328:3"/>
+            <l>Of that great Chancellor there, O lay them downe</l>
+            <l>And merit praiſe on earth, in heaven renowne.</l>
+            <l>So intricate is this, our wretched ſtory,</l>
+            <l>Where to begin deſerver of all glory.</l>
+            <l>Heaven knowes, We doe not know, nay which is worſt;</l>
+            <l>Thy once bleſt Subjects beene ſo often curſt</l>
+            <l>For offering up petitions of this kinde,</l>
+            <l>That we even tremble till we call to minde</l>
+            <l>Thy wonted goodneſſe, that O that doth cheare us,</l>
+            <l>That onely gives us hope, that thou wilt heare us,</l>
+            <l>When heaven was pleas'd great Queen to take thee hence,</l>
+            <l>And make us wretched for our great offence.</l>
+            <l>This ſinfull land, O then began our feares,</l>
+            <l>And had we then this Kingdome drown'd in teares,</l>
+            <l>And in thoſe floods conveyed our ſoules to heaven,</l>
+            <l>To waite on thine, we had not then beene driven,</l>
+            <l>To call and cry thee from thy fellow Saints,</l>
+            <l>To heare and pitty theſe our juſt complaints,</l>
+            <l>O pardon, but ſuch is our groſſe commiſſion,</l>
+            <l>And daine to further this our poore Petition,</l>
+            <l>And we will make the name of bleſt <hi>Eliza,</hi>
+            </l>
+            <l>Equall the <hi>Aves</hi> of the great <hi>Maria:</hi>
+            </l>
+            <l>No ſnuffling Raſcall through his hornepipe noſe,</l>
+            <l>Shall tell thy ſtory in his ill tun'd proſe;</l>
+            <l>Nor ſhew thy Statue to each penny groome,</l>
+            <l>The monument weele raiſe, ſhall make proud Rome</l>
+            <l>On pilgrimage to come, and at thy ſhrine</l>
+            <l>Offer thier gifts, as to a thing divine,</l>
+            <l>And on an alter, fram'd of richeſt ſtones,</l>
+            <l>Weele daily tender teares, and ſighes, and groanes</l>
+            <l>Eternally ſhall ſleepe, and long tongu'd ſame</l>
+            <l>Forget to ſpeake, dare we forget her name?</l>
+            <l>Reade bleſſed ſoule, O read <gap reason="illegible" resp="#UOM" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>d beleeve us,</l>
+            <l>And give it to his hands that can relieve us.</l>
+            <trailer>Finis Petitions ad Reginam.</trailer>
+         </div>
+         <div type="poem">
+            <pb n="3" facs="tcp:125328:3"/>
+            <head>To the high and mightieſt, moſt Juſt, and yet moſt mercifull, the great <hi>Chancellor of Heaven, and chiefeſt Judge of all the Earth.</hi>
+            </head>
+            <l>IF bleeding hearts, detected ſoules want grace,</l>
+            <l>Thou all-diſpoſer, turne not backe thy face</l>
+            <l>From thy ſuppliants, thrice ſeaven ſonnes have worne</l>
+            <l>Their ſummer ſuits, ſince we began to mourne;</l>
+            <l>
+               <hi>Egypts</hi> ten plagues we have indur'd twice told,</l>
+            <l>Since bleſt <hi>Eliza</hi> was with Saints inroul'd;</l>
+            <l>Thy meſſengers of wrath their vvalls power</l>
+            <l>Each day upon our heads, nay every hower</l>
+            <l>Plagues beget plagues and fearefull vengeance growes</l>
+            <l>As if there were no end ſet to our woes:</l>
+            <l>Have our great ſinnes raiſed up ſuch a cloud,</l>
+            <l>'Twixt us and heaven, as cryes, though ne're ſo loud,</l>
+            <l>Can get no entrance to thy mercy ſeat;</l>
+            <l>Are our iniquities good God ſo great,</l>
+            <l>So infinite, as neither greatneſſe, nor teares</l>
+            <l>Can get a paſſage, remember but the yeares</l>
+            <l>Of our afflictions, then forget we crave,</l>
+            <l>Our ſinnes, and bury them in deepeſt grave</l>
+            <l>Of darke oblivion, hide them in the ſide</l>
+            <l>Of our Redeeme, O let them be tide</l>
+            <l>In chaines that they may never riſe againe,</l>
+            <l>Let us no longer ſue, and begge in vaine,</l>
+            <l>Let this our ſupplication, this our plaint,</l>
+            <l>Tendred by our bleſt Soveraigne now thy Saint</l>
+            <l>At laſt finde grace; waſt not enough we pray</l>
+            <l>That at the firſt thou took'ſt that Queene away,</l>
+            <l>VVa<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> not that done, that lambe of innocence</l>
+            <l>Sufficient ſacrifice for our offence.</l>
+            <pb n="4" facs="tcp:125328:4"/>
+            <l>O no, our ſinnes outlive her, and our crimes</l>
+            <l>Did threaten to outlive the laſt of times,</l>
+            <l>Thou didſt remove her that he might not ſee</l>
+            <l>The ſad beginning of our miſery:</l>
+            <l>Then like the ſhowers of haileſtones fell the darts</l>
+            <l>Of angry death, how many thouſand hearts</l>
+            <l>Were wounded in one yeare, how many bled</l>
+            <l>And wiſht to die, ſince that they lov'd was dead,</l>
+            <l>Mothers left childleſſe, children quite bereft</l>
+            <l>Of carefull parents, nay there was not left</l>
+            <l>A paire of friends to comfort one another,</l>
+            <l>Who wanted not a Siſter, who a Brother?</l>
+            <l>VVhere was the husband, where the wife could ſay</l>
+            <l>VVe ſhall not be devorc't this night, this day,</l>
+            <l>Death ſo his power and large commiſſion ſhew'd,</l>
+            <l>That men on earth like corne on ground lay ſtrew'd</l>
+            <l>The ſad remembrance of this ſtill remaines</l>
+            <l>Next thy ſtretch't hand of vengeance bound in chaines,</l>
+            <l>The fruitfull fields, both birds, beaſts, plants, fruits, trees,</l>
+            <l>Did famiſh, faint, droope, die, wither and freeze,</l>
+            <l>So nothing iſſued from the barren earth,</l>
+            <l>But that leane monſter, pale and thinfac't death;</l>
+            <l>Next inundations roſe, ſuch as before,</l>
+            <l>Since <hi>Noahs</hi> flood, never topt our brittiſh ſhore,</l>
+            <l>VVhere men and beaſts alike engrav'd their bones</l>
+            <l>Under moyſt waves, in ſtead of marble ſtones,</l>
+            <l>How often hath the Sunne withdrawne his light</l>
+            <l>And turn'd our day into the ſhape of night.</l>
+            <l>Had <hi>Egypt</hi> greater darkeneſſe then had we,</l>
+            <l>VVhen cleareſt eyes at midnight could not ſee</l>
+            <l>Vnwholeſome nights, ſtrange fogs, rumors of warres,</l>
+            <l>Evill portending Comets, Blazing Starres,</l>
+            <l>Prodigious births, and moſt unnaturall ſeaſons,</l>
+            <l>Spurning Philoſophers beyond their reaſons,</l>
+            <l>Frighting the poore, the rich likewiſe exhorting</l>
+            <l>From their ſoft beds whereon they lay a ſnorting:</l>
+            <l>Heaven ſeem'd in combuſtion, the skie in armes</l>
+            <l>The Spheares beate Drums, the Orbes did ſound Alarmes.</l>
+            <pb n="5" facs="tcp:125328:4"/>
+            <l>The ayre did often bloody colours ſpread,</l>
+            <l>And all to Rouze us from the blowne up bed,</l>
+            <l>Of baſe ſecuritie, yet nought could fright us,</l>
+            <l>Till heaven had rob'd us of what did moſt delight us.</l>
+            <l>
+               <hi>Henry</hi> our Joy, <hi>Henry</hi> whoſe every limbe,</l>
+            <l>Threatned to conquer death, and not death him,</l>
+            <l>In whom great Britaine ſet up her laſt reſt,</l>
+            <l>
+               <hi>Henry</hi> our pride, ever <hi>Henry</hi> the bleſt,</l>
+            <l>Reſolving, looſing him, to play no more,</l>
+            <l>But live for ever wretched, ever poore,</l>
+            <l>VVho had not in that one an ample ſhare,</l>
+            <l>VVhat Subject had not rather loſt his heire,</l>
+            <l>VVhat tender mother did not wiſh that Dart</l>
+            <l>Had glaunc't from him, and pearſt his darlings heart:</l>
+            <l>All that were vertuous, all that lived good</l>
+            <l>Turned their eyes rivers into Seas of blood.</l>
+            <l>The <hi>Egyptian</hi> waters, bitter were, but know,</l>
+            <l>This toucht the heart that did not ſo:</l>
+            <l>O pardon heaven, all plagues that went before</l>
+            <l>Have left themſelves in this, and never more</l>
+            <l>To be remembred, this, O this alone,</l>
+            <l>Might well have made us weepe our ſelves to ſtone.</l>
+            <l>The ſpawne of <hi>Pharaoh,</hi> could their bloods be priz'd</l>
+            <l>All the firſt borne that ſo were ſacrifiz'd,</l>
+            <l>All that baſe Fry, compared to our <hi>Henry</hi>
+            </l>
+            <l>Deſerve no mentioning, no thoutht, no memory:</l>
+            <l>Luſtfull <hi>Sodome,</hi> ſuch hath thy mercy been,</l>
+            <l>Although ſhe did abound in crying ſinne</l>
+            <l>Could not take fire untill they were remov'd,</l>
+            <l>That thou in mercy, like in goodneſſe lov'd,</l>
+            <l>And thy annointed ſhe may ſave this Citie</l>
+            <l>Before it was deſtroyed, ſuch was thy pittie,</l>
+            <l>Such was thy goodneſſe: Ah is there yet full tenne,</l>
+            <l>Is there yet good God a number yet of men,</l>
+            <l>VVhoſe innocence may ſlake thy kindled ire,</l>
+            <l>And ſave this <hi>Sodom Britain</hi> from the fire</l>
+            <l>Of thy juſt anger, is there yet a ſoule</l>
+            <l>VVhoſe vertue hath but power to controule</l>
+            <pb n="6" facs="tcp:125328:5"/>
+            <l>Thy heav'd up hand of Juſtice if there be,</l>
+            <l>For his or their ſake, rouſe thy clemency,</l>
+            <l>Awake thy mercy, let thy Juſtice ſlumber,</l>
+            <l>And ſave the greater by the leſter number;</l>
+            <l>For his or her ſake, we doe humbly pray</l>
+            <l>Reſpite of time, give us a longer day.</l>
+            <l>And then enabled by thy grace and favour,</l>
+            <l>VVeele purchaſe pardon by our good behaviour:</l>
+            <l>Plague, famine, darkeneſſe, inundations</l>
+            <l>VVe have indured, feare of innovations</l>
+            <l>VVith expectation of the worſt can f<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>llow,</l>
+            <l>Daily torment us that we hourely ſwallow</l>
+            <l>Our very ſpittle, even with feare and horrour;</l>
+            <l>We might ſl<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>epe in feare, awake in terrour,</l>
+            <l>Nor are we all this while from vermin free,</l>
+            <l>Ther's Catterpillars hangs on every tree,</l>
+            <l>Louſie projectors, monopoly-mongers,</l>
+            <l>A crew of upſtart Raſcalls, whoſe ſharpe hangers</l>
+            <l>Can ne're be ſatisfied, a ſort of ſlaves,</l>
+            <l>More greedy farre, then either whores or graves,</l>
+            <l>A crew of upſtart paraſites, that riſe,</l>
+            <l>And doe more miſchiefe then the <hi>Egyptian</hi> ſlies:</l>
+            <l>Cankers in gardens, and in our houſes ſwarme,</l>
+            <l>One drinkes a Mannor, another eates a Farme,</l>
+            <l>This with a Lordſhip warmes his luſting whore,</l>
+            <l>This by the fall of Juſtice doth procure</l>
+            <l>A Tenement or two, which being got</l>
+            <l>By violence, he drownes it in a pot,</l>
+            <l>They enter Cities, Corporations,</l>
+            <l>Worke not, but live by occupations,</l>
+            <l>They have no trade, and yet no trade is free</l>
+            <l>From paying them a tax a ſine, a fee.</l>
+            <l>
+               <hi>Egypt</hi> did G<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aſhoppers bring forth, and yeeld,</l>
+            <l>That eate the fruite and corne of every field,</l>
+            <l>And we have Skip-Jacke Courtiers I dare ſay,</l>
+            <l>That devoure farre more in one poore day,</l>
+            <l>Then they in <hi>Pharaohs</hi> age could e're have done,</l>
+            <l>They bounded were, praid but from Sun to Sun:</l>
+            <pb n="7" facs="tcp:125328:5"/>
+            <l>But theſe for three apprentiſhips, have eate</l>
+            <l>The fruite of all our labours, all our meate;</l>
+            <l>Have we no Frogs? Oh yes in every ditch,</l>
+            <l>Devouring the poore, impo veriſhing the rich,</l>
+            <l>Buſie Intelligencers, baſe informers,</l>
+            <l>Like Toades and Frogs, lie croaking in all corners,</l>
+            <l>Promooting Raſcalls, whoſe venomous tongues</l>
+            <l>Have done thy ſuppliants infinite wrongs:</l>
+            <l>Where they deſire to enter, ther's no fence,</l>
+            <l>No ancient Title, no inheritance</l>
+            <l>Can ſerve for plea, they wreſh the Law,</l>
+            <l>Keepe Majeſtrates and Officers in awe.</l>
+            <l>They plucke the ballance from faire Juſtice firſt.</l>
+            <l>And make her miniſters doe what they liſt:</l>
+            <l>There is no equitie, no law, no right,</l>
+            <l>All cauſes goe by favour, or by might.</l>
+            <l>Oh God of mercy, what more can be ſaid,</l>
+            <l>Juſtice is bought and ſold, become a trade,</l>
+            <l>Honor's confen'd on baſe unworthy groomes,</l>
+            <l>And Clownes for coyne may pearch in higheſt roomes.</l>
+            <l>
+               <hi>Job</hi> he had many ſcalds, but none ſo bad</l>
+            <l>As we theſe one and twentie yeares have <gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap>a<gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap>.</l>
+            <l>
+               <hi>Egypt</hi> had Botches, Murrians, ſores that ſinarted,</l>
+            <l>But yet they laſted not but ſoone departed.</l>
+            <l>Halfe fortie yeares in this vaſte Wilderneſſe</l>
+            <l>We now have travelled, and yet ther's no redreſſe.</l>
+            <l>
+               <hi>Bowman</hi> and <hi>Fowler, Ringwood</hi> and his mate</l>
+            <l>Compar'd to us, are in a better ſtate.</l>
+            <l>They can be heard, tis they can be revvarded,</l>
+            <l>When we are ſlighted, curſt and unregarded;</l>
+            <l>Is there a people, (heaven) fallen a degree</l>
+            <l>Below the condition of a dog but vve?</l>
+            <l>Was there a nation in this univerſe</l>
+            <l>More daring, once, more ſtout, more bold more fierce,</l>
+            <l>And is there now upon the vvorlds broad face</l>
+            <l>Any that can be reckoned halfe ſo baſe?</l>
+            <l>Is there a people ſo ſcorn'd, ſo much diſpis'd,</l>
+            <l>So laught at, trod on, and ſo vaſſalis'd?</l>
+            <pb n="8" facs="tcp:125328:6"/>
+            <l>Where is our antient Nobilitie become?</l>
+            <l>Alas they are ſuppreſt, and in their rome</l>
+            <l>Like proud uſurping Lucifers, there ſi<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s</l>
+            <l>A ſort of upſtart, fawning paraſites;</l>
+            <l>Where is the gentry? all oppreſt, diſgrac't,</l>
+            <l>And Errant Knights, above them now are plac't,</l>
+            <l>Fidlers and fooles, with dancers and with rimers</l>
+            <l>Are now in England here the greateſt climbers;</l>
+            <l>VVe had a Parliament, a cure for ſores,</l>
+            <l>A <hi>Magna Charta,</hi> all's caſt out of dores;</l>
+            <l>The bold and hardy Britaines conquered are</l>
+            <l>VVithout a Drum, a Sword, or ſound of warre:</l>
+            <l>If without cauſe, juſt heaven we doe complaine,</l>
+            <l>Then ſend our ſupplications backe againe;</l>
+            <l>Much more we could ſay, much more we could ſpeake,</l>
+            <l>But with the thought of this, our hearts even breake.</l>
+            <l>As humbly then, as we began we crave</l>
+            <l>A gratious Anſwer: O be pleas'd to ſave</l>
+            <l>The remnant of thy flocke, and turne thy face,</l>
+            <l>And let us once more taſte thy ſaving grace;</l>
+            <l>Forſake us not for ever Lord, but give</l>
+            <l>New life to thoſe, that now deſire to live.</l>
+            <trailer>Deo finis petitionis.</trailer>
+         </div>
+         <div type="poem">
+            <pb n="9" facs="tcp:125328:6"/>
+            <head>A moſt gracious anſwer, procured by the bleſſed Saint <hi>Elizabeth,</hi> with a divine <hi>admonition and Propheticall concluſion.</hi>
+            </head>
+            <l>YOur bold Petitions mortalls I have ſeene,</l>
+            <l>And find them full of paſſions, full of ſpleene,</l>
+            <l>Prayers that enter heaven, and gaine a hearing</l>
+            <l>Are wing'd with charitie, here's no appearing</l>
+            <l>With ſupplications ſtuft with Rue or Gall,</l>
+            <l>I doe confeſſe poore ſoules, the truth of all,</l>
+            <l>And wiſh a period to your miſeries,</l>
+            <l>But firſt your infinite iniquities</l>
+            <l>Muſt have an end; alas you muſt begin</l>
+            <l>To love faire vertue, as you have done ſinne,</l>
+            <l>You muſt redeeme the time that's loſt, and know,</l>
+            <l>As heaven hath ever beene to vengeance ſlow,</l>
+            <l>So by degrees is grace and mercy wonne:</l>
+            <l>Eyes that are foule by gazing on the Sunne</l>
+            <l>Increaſe their paine, if you will mercy gaine</l>
+            <l>From unjuſt actions, you muſt firſt refraine,</l>
+            <l>How dares an unjuſt ſervant once require</l>
+            <l>Of his juſt maſter, either grace, or hire.</l>
+            <l>You muſt off with the ſhooes wherewith you trod</l>
+            <l>The wayes of ſinne, ere you diſcourſe with God;</l>
+            <l>Give me but ground for commendations,</l>
+            <l>Encourage me, and then your ſupplications</l>
+            <l>I ſhall deliver, I left you rich 'tis true,</l>
+            <l>But proud withall, you feare none, all feare you,</l>
+            <l>You were ſo farre from feare, that you denyed</l>
+            <l>To pay him feare that gave you cauſe of pride,</l>
+            <l>You muſt be humble, he ever puniſht yet</l>
+            <l>All kind of rankeneſſe with an oppoſit:</l>
+            <pb n="10" facs="tcp:125328:7"/>
+            <l>He that vvill ſurfet 'ere he gaine his health,</l>
+            <l>Muſt ſtrangely faſt; had you ſtill ſat in vvealth,</l>
+            <l>You never vvould have bovved your ſtubborne knee</l>
+            <l>Either to God, to Saint in Heaven, nor me.</l>
+            <l>I vvill not grieve your troubled ſoule too much</l>
+            <l>Yet gently your ingratitude Ile tutch,</l>
+            <l>And that the better you may knovv your errours</l>
+            <l>I'le bring into your memory all favours</l>
+            <l>By you received, ungratefully forgotten</l>
+            <l>Long time before the fleſh I vvore vvas rotten:</l>
+            <l>It is no oſtentation to relate</l>
+            <l>Courteſies done to ſuch as are ungrate,</l>
+            <l>I found you like a hunted ſcattered flocke,</l>
+            <l>Your very ſoules beating againſt the rocke</l>
+            <l>Of ignorance and ſuperſtition,</l>
+            <l>Juſt in the high way of the ſoules perdition</l>
+            <l>I playd the ſhepheard, and the Pilat too,</l>
+            <l>And yet no Lambe, no Fleece more then my due</l>
+            <l>Was e're exacted from the common ſtore,</l>
+            <l>Where all alike vvere rich, alike vvere poore,</l>
+            <l>For thine and mine: and mine and thine are things</l>
+            <l>Not for to be, twixt Subjects and their Kings:</l>
+            <l>Princes like the Sunne ſhould from the floods exhale</l>
+            <l>The wealth they raiſe therein, and let it fall</l>
+            <l>In every place, as they have cauſe a ſhare,</l>
+            <l>And not conſume it, like the vvanton heire,</l>
+            <l>The'r full Exchequers muſt like Conduits be,</l>
+            <l>Open to all, to rich and poore, like free.</l>
+            <l>And ſubjects ſhould like fields be full of Springs,</l>
+            <l>And naturally ſhould fall towards their Kings,</l>
+            <l>The common-wealth ſhould alwayes be in motion,</l>
+            <l>Seas fall to brookes, and brookes ſhould to the Ocean,</l>
+            <l>Such royall and ſuch loyall communitie</l>
+            <l>Keepe Kings and ſubjects ſtill in unitie.</l>
+            <l>I cannot ſay I grieve, this place is free</l>
+            <l>From paſſion, as from all iniquitie;</l>
+            <l>But yet I muſe ſince Scotland's to it joyn'd,</l>
+            <l>Englands Exchequer ſhould be no better coyn'd,</l>
+            <pb n="11" facs="tcp:125328:7"/>
+            <l>Sure ther's falſe play. I feare the younger brother</l>
+            <l>Is growne too vviſe, too craftie for the other;</l>
+            <l>It is an ill made marriage vvhere the bride</l>
+            <l>Spends all, before the husband can provide,</l>
+            <l>I did maintaine, farre be vaine glory hence,</l>
+            <l>A well Rig'd Navie, for your owne defence,</l>
+            <l>A royall Fleet, that like a Brazen vvall</l>
+            <l>Circled the Land, the Armies vvere not ſmall,</l>
+            <l>The Garriſons and Forts I did uphold,</l>
+            <l>Kept you like ſheepe in peace vvithin your fold.</l>
+            <l>What vvell deſerving Souldier vvent away</l>
+            <l>VVithout reward, much leſſe vvithout his pay:</l>
+            <l>To neighbour States in amitie vve lent</l>
+            <l>Mony and men, vvhat ſervant ever vvent</l>
+            <l>VVithout his hier, what penſion vvas denyed</l>
+            <l>From the firſt hower, untill the hower I dyed:</l>
+            <l>In briefe I ſeldome borrowed, oft did lend,</l>
+            <l>Yet left enough to give, enough to ſpend;</l>
+            <l>How comes it then, that neither Fleete nor Fort,</l>
+            <l>Mony nor Garriſon, nor Houſe nor Court,</l>
+            <l>VVages nor debts, nothing repaid or paid,</l>
+            <l>Nought purchaſt, nought lent, nought built, wrought, playd,</l>
+            <l>And yet ther's nought remaines, nought to be found,</l>
+            <l>All is not perfect ſure, all is not ſound.</l>
+            <l>I no leſſe muſe to ſee the vvoods cut downe</l>
+            <l>The ancient vvoods, revenues of the Crovvne</l>
+            <l>Diſpos'd of ſo to favorite or friend,</l>
+            <l>That ſhould hereditarily deſcend</l>
+            <l>From King to King, as doth the dyadem,</l>
+            <l>The Lands of the Crovvne, are the Crovvnes chiefeſt Jem;</l>
+            <l>Cuſtomes, ſubſidies, ſines and accidents,</l>
+            <l>Nought is ſubſtantiall but the annuall Rents;</l>
+            <l>There are deſervers ſure that ſervice doe,</l>
+            <l>That vvould not be made knovvne to heaven nor you,</l>
+            <l>Princes are gods on earth, and ſubjects eyes</l>
+            <l>Upon their actions ſhould not ſtand as ſpies,</l>
+            <l>It is dangerous and ungodly thing</l>
+            <l>To pry into the Chamber of a King.</l>
+            <pb n="12" facs="tcp:125328:8"/>
+            <l>The arke of State is ſanctified, and muſt</l>
+            <l>Be onely toucht by them are put in truſt,</l>
+            <l>But you expect an anſwer to your petition?</l>
+            <l>Then know poore ſoules, 'tis given me in commiſſion</l>
+            <l>From heavens great King, to tell you all that's paſt</l>
+            <l>To what's to come, is but a ſparke, a blaſt,</l>
+            <l>Your ſorrowes yet alas, like womens throwes</l>
+            <l>Doe come and goe, but there will follow blowes,</l>
+            <l>Ere England will be delivered, it will make</l>
+            <l>Your very entralls bleed, your ſoules to quake,</l>
+            <l>The time ſhall come when braveſt mindes ſhall mourne</l>
+            <l>And children wiſh they never had beene borne.</l>
+            <l>The Sword ſhall eate, what plagues have over-ſlipt</l>
+            <l>And ſier conſume what famine hath not nipt;</l>
+            <l>The Goſpel ſound ſhall looſe his glorious light,</l>
+            <l>And ignorance as blacke as darkeſt night,</l>
+            <l>Shall ſpread her ſable wings about our Ile,</l>
+            <l>And <hi>Babylons</hi> great Whore once more defile</l>
+            <l>
+               <hi>Albions</hi> white cliffe, the <hi>Iſraelites</hi> ſhall double</l>
+            <l>The bricke they made, yet be allow'd no ſtubble.</l>
+            <l>The <hi>Egyptian</hi> with an <hi>Hebrew</hi> ſhall contend,</l>
+            <l>And the <hi>Hebrew</hi> want a <hi>Moſes</hi> to his friend.</l>
+            <l>There is an execrable ſinne lies hid,</l>
+            <l>Such a thing as modeſty doth forbid.</l>
+            <l>My Sex to mine, till that he brought to light,</l>
+            <l>And <hi>Acan</hi> puniſht, looke to be put to fight.</l>
+            <l>Before the men of <hi>Ahi</hi> you ſhall not ſtand,</l>
+            <l>Nor ſhall ought proſper that you take in hand;</l>
+            <l>The <hi>Levite</hi> from his wife ſhall be devorc't,</l>
+            <l>And every poore mans virgin ſhall be forc't:</l>
+            <l>
+               <hi>
+                  <g ref="char:V">Ʋ</g>riah</hi> ſhall be murthered for his wife,</l>
+            <l>And <hi>Naball</hi> ſleepe in danger of his life.</l>
+            <l>You luſted for a King, heavens King relieve you</l>
+            <l>And grant you pardon, as I here forgive you.</l>
+            <l>You tooke a ſurfet of my happy raigne,</l>
+            <l>And paid my well deſerving with diſdaine;</l>
+            <l>But Oh you caſt not me away, 'twas not I</l>
+            <l>You ſlighted, 'twas the Lord of hoſts moſt high,</l>
+            <pb n="13" facs="tcp:125328:8"/>
+            <l>And therefore you ſhall call and cry in vaine,</l>
+            <l>Bootleſſe you ſhall lament, bootleſſe complaine;</l>
+            <l>From forth the North the Plague is come at laſt,</l>
+            <l>The Lyon is rowz'd from's Den, th<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t ſhall lay waſt</l>
+            <l>Your townes and cities, who ſtands up alas</l>
+            <l>To ſtop the gap, where ſuch his wrath ſhall paſſe,</l>
+            <l>Englands diſeaſe is deſperate, and 'tis decreed</l>
+            <l>That e're ſhee can recover, ſhe muſt bleed,</l>
+            <l>Harke, harke, heavens trumpet ſummons me away,</l>
+            <l>Now my commiſſion's ended, I muſt not ſtay:</l>
+            <l>Farewell poore ſoules, goe pray, repent and faſt,</l>
+            <l>The deafe and unjuſt Judge is won at laſt</l>
+            <l>By importunitie, much more is he</l>
+            <l>That is inclin'd and prone to clemency.</l>
+            <l>I ſhall attend your prayers every hower,</l>
+            <l>And to the utmoſt will extend my power</l>
+            <l>With him, that one, that can and may relieve you,</l>
+            <l>Ther's hope of pardon if he doe reprieve you.</l>
+            <l>Greeve for what's paſt with reſolution</l>
+            <l>To mend your lives, deferre not th' execution;</l>
+            <l>Then to the hornes of th' Altar timely flie,</l>
+            <l>Timely repent leaſt you untimely die;</l>
+            <l>How wretched is the ſtate you all are in,</l>
+            <l>That ſleepe ſecure in unrepented ſinne,</l>
+            <l>When not the greateſt King on earth can ſay</l>
+            <l>That we ſhall live untill the breake of day,</l>
+            <l>No Saints in heaven, or bleſſed Angells know</l>
+            <l>Whether the laſt and dreadfull trumpe ſhall blow</l>
+            <l>To judgement of the living and the dead,</l>
+            <l>Before theſe words I ſpeake be uttered;</l>
+            <l>Awake, O watch, O weepe, repent and pray,</l>
+            <l>And have in minde the laſt and dreadfull day.</l>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
